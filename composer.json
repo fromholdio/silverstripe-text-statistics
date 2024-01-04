@@ -1,0 +1,26 @@
+{
+  "name": "fromholdio/silverstripe-text-statistics",
+  "type": "silverstripe-vendormodule",
+  "description": "Calculates statistics on page/object content, such as word count, readability scores/standards, reading time, etc.",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-text-statistics",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-text-statistics/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/framework": "~4.13 || ~5.0",
+    "fromholdio/silverstripe-plain-text": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\TextStatistics\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
